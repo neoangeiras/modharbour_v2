@@ -6,7 +6,8 @@ Copiar o arquivo mod_harbour.v2.so para /usr/lib/apache2/modules
 
 Para configurar, incluir no apache2.conf:
 
-- LoadModule harbourV2_module /usr/lib/apache2/modules/mod_harbour.v2.so
-- <FilesMatch "\.prg|hrb)$">
-   SetHandler harbour
-  </FilesMatch> 
+1) LoadModule harbourV2_module /usr/lib/apache2/modules/mod_harbour.v2.so
+
+2) <FilesMatch "\.prg|hrb)$">
+      SetHandler harbour
+   </FilesMatch> 
