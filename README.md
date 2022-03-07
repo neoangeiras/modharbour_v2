@@ -11,3 +11,4 @@ LoadModule harbourV2_module /usr/lib/apache2/modules/mod_harbour.v2.so
    SetHandler harbour
 </FilesMatch>
 ```
+Reiniciar o apache2 e já deve estar tudo funcionando
